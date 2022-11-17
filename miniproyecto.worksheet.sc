@@ -2,11 +2,11 @@
 //Simpson 1/3
 def integracion(a:Int, b:Int, f:(Double) => Double):Double = {(b-a)*(f(a)+ (4*f((a+b)/2.0))+ f(b))/6}
 // Regla de Simpson 1/3 Compuesta
-def integracion(a: Int , b:Int, n:Int ,f:Double=> Double)= {
-    val h = (b-a)/n
+def integracion1(a: Int , b:Int, n:Int ,f:Double=> Double)= {
     if (n % 2 == 0){
-        a+b
-    }
+         val h: Double = (b-a) /n.toDouble
+         val intervalos= (0 to n ).map(j =>(a + (j*h))).toList
+                 }
     else
         printf("n debe ser un numero par")
     }
