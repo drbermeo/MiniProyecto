@@ -27,7 +27,8 @@ Utilizando los conceptos expuestos anteriormente debe:
 2. Aproxima el valor de las siguientes integrales definidas usando la función integracion creada en el primer paso.
 
    ```latex
-   1. \[ \int_{3}^{5} (-x^2 + 8x - 12) \, dx \approx 7.33 \]
+    \[ \int_{3}^{5} (-x^2 + 8x - 12) \, dx \approx 7.33 \]
+    ```
    2.\[ \int_{0}^{2} (3x^2) \, dx \approx 8 \]
    3.\[ \int_{-1}^{1} (x + 2x^2 - x^3 + 5x^4) \, dx \approx 3.333 \]
    4.\[ \int_{1}^{2} \frac{2x + 1}{x^2 + x} \, dx \approx 1.09861 \]
